@@ -67,6 +67,7 @@ div {
 .contact-information {
     display: flex;
     flex-direction: column;
+    background-color: rgb(228, 228, 228);
     margin: 0;
 }
 
@@ -106,10 +107,12 @@ textarea {
 
 input:focus {
     background-color: lightyellow;
+    transition: background-color 2s;
 }
 
 select:focus {
-    background-color: ivory;
+    background-color: lightyellow;
+    transition: background-color 2s;
 }
 
 input[type="text"]::-webkit-input-placeholder {
