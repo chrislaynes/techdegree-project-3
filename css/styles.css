@@ -124,20 +124,8 @@ textarea:focus {
     transition: background-color 2s;
 }
 
-input[type="text"]::-webkit-input-placeholder {
-    text-align: right;
-    font-style: italic;
-    color: gray;
-    margin-right: 10px;
-}
-
-input[type="email"]::-webkit-input-placeholder {
-    text-align: right;
-    font-style: italic;
-    color: gray;
-    margin-right: 10px;
-}
-
+input[type="text"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder,
 input[type="tel"]::-webkit-input-placeholder {
     text-align: right;
     font-style: italic;
